@@ -10,9 +10,9 @@ The original select skip interface presented users with an overwhelming 3x2 grid
 
 ### Visual Hierarchy Revolution
 
-- **From Grid Chaos to Focused Experience**: Replaced the overwhelming 6-card grid with a clean tab navigation system that allows users to focus on one skip at a time
+- **From Grid Chaos to Focused Experience**: Replaced the overwhelming 10-card grid with a clean tab navigation system that allows users to focus on one skip at a time
 - **Progressive Disclosure**: Users can easily browse through options without cognitive overload, with full attention on each skip's detailed specifications
-- **Information Priority**: Essential details (price, capacity, restrictions) are prominently displayed rather than buried in small text
+- **Information Priority**: Essential details (price, capacity, permissions) are prominently displayed rather than buried in small text
 
 ### Color Psychology & Branding Strategy
 
@@ -59,10 +59,14 @@ The original select skip interface presented users with an overwhelming 3x2 grid
 
 #### 3. Information Density Optimization
 
-- **Header Section**: Gradient background featuring skip name, description, pricing, and service badges
-- **Specifications Grid**: Three-column layout (mobile: 2-column) with icon-based cards for capacity, dimensions, and weight
-- **Permissions Section**: Clear visual indicators using check/X icons for road placement and heavy waste capabilities
-- **Usage Recommendations**: Dynamic gradient-themed tags showing ideal use cases
+The select skip cards focus on essential decision-making information, deliberately simplified to prevent information overload:
+
+- **Header Section**: Gradient background featuring skip name, description, pricing, and service badges (delivery time, insurance, postcode)
+- **Core Specifications**: Three-column layout (mobile: 2-column) with icon-based cards for capacity, dimensions, and weight limits
+- **Permission Indicators**: Clear visual check/X icons for road placement and heavy waste capabilities
+- **Usage Recommendations**: Gradient-themed tags showing ideal use cases
+
+**Design Philosophy**: Restrictions, detailed pricing breakdowns, and use case percentages are intentionally excluded from the selection cards to maintain focus on primary decision factors. This information remains available in detailed information panels when needed.
 
 ## 📱 Responsive Design Strategy
 
@@ -119,9 +123,9 @@ The original select skip interface presented users with an overwhelming 3x2 grid
 ### Information Architecture Strategy:
 
 1. **Primary Level**: Skip name and pricing (immediate recognition and decision factors)
-2. **Secondary Level**: Capacity and key specifications (functional requirements)
-3. **Tertiary Level**: Permissions and restrictions (compliance and suitability)
-4. **Supporting Level**: Usage recommendations and detailed breakdowns (confidence building)
+2. **Secondary Level**: Capacity, dimensions, and weight specifications (functional requirements)
+3. **Tertiary Level**: Permissions and capabilities (road placement, heavy waste allowance)
+4. **Supporting Level**: Usage recommendations with gradient-themed tags (confidence building)
 
 ## ♿ Accessibility & Usability Design Decisions
 
